@@ -15,10 +15,10 @@ public class Patterns {
      */
     public static void main(String[] args) {
         
-        OS ios = new Ios(1, "iphone", 3);
-        
-        System.out.println(ios);
-//        Math.getInstance().sum(5, 9);
+//        OS ios = new Ios(1, "iphone", 3);
+//        
+//        System.out.println(ios);
+        System.out.println(Math.getInstance().sum(5, 9));
     
 
     }

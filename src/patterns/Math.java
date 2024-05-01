@@ -8,10 +8,10 @@ public class Math {
     {
         if (instance == null){
             instance = new Math();
-            return instance;
         }
-        return instance;
+            return instance;
         
+    }
         public int sum (int a, int b) {
             return a+b;
         }
@@ -23,5 +23,5 @@ public class Math {
             return a-b;
         }
         
-    }
+    
 }
